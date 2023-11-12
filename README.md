@@ -1,73 +1,48 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Εισαγωγή στο framework NestJS
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## -1. Εγκατάσταση και πρώτη εκτέλεση
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
 ```
+❯ npm i -g @nestjs/cli
 
-## Running the app
+added 37 packages, removed 5 packages, and changed 243 packages in 24s
 
-```bash
-# development
+56 packages are looking for funding
+  run `npm fund` for details
+
+~/Coding Factory/preparation took 24s
+❯ nest new angular-introduction-backend
+⚡  We will scaffold your app in a few seconds..
+
+? Which package manager would you ❤️  to use? npm
+CREATE angular-introduction-backend/.eslintrc.js (663 bytes)
+CREATE angular-introduction-backend/.prettierrc (51 bytes)
+CREATE angular-introduction-backend/README.md (3340 bytes)
+CREATE angular-introduction-backend/nest-cli.json (171 bytes)
+CREATE angular-introduction-backend/package.json (1969 bytes)
+CREATE angular-introduction-backend/tsconfig.build.json (97 bytes)
+CREATE angular-introduction-backend/tsconfig.json (546 bytes)
+CREATE angular-introduction-backend/src/app.controller.ts (274 bytes)
+CREATE angular-introduction-backend/src/app.module.ts (249 bytes)
+CREATE angular-introduction-backend/src/app.service.ts (142 bytes)
+CREATE angular-introduction-backend/src/main.ts (208 bytes)
+CREATE angular-introduction-backend/src/app.controller.spec.ts (617 bytes)
+CREATE angular-introduction-backend/test/jest-e2e.json (183 bytes)
+CREATE angular-introduction-backend/test/app.e2e-spec.ts (630 bytes)
+
+✔ Installation in progress... ☕
+
+🚀  Successfully created project angular-introduction-backend
+👉  Get started with the following commands:
+
+$ cd angular-introduction-backend
 $ npm run start
 
-# watch mode
-$ npm run start:dev
 
-# production mode
-$ npm run start:prod
+                          Thanks for installing Nest 🙏
+                 Please consider donating to our open collective
+                        to help us maintain this package.
+
+
+               🍷  Donate: https://opencollective.com/nest
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
