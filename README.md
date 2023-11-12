@@ -138,10 +138,10 @@ db.getCollection('users').insertMany(
 - `http://localhost:3000/user/:id`
 - `http://localhost:3000/user/email/:email`
 
-Για να υλοποιήσουμε το POST και να έχουμε ελέγχους ορθότητας πριν καν τα δεδομένα φτάσουν στο service πρέπει να ορίσουμε Data Transfer Object (DTO) και να εγκαταστήσουμε το πακέτο `class-validator`:
+Για να υλοποιήσουμε το POST και να έχουμε ελέγχους ορθότητας πριν καν τα δεδομένα φτάσουν στο service πρέπει να ορίσουμε Data Transfer Object (DTO) και να εγκαταστήσουμε τα πακέτα `class-validator` και `class-transformer`:
 
 ```
-npm i class-validator
+npm i class-validator class-transformer
 ```
 
 Και το DTO για τα αντικείμενα των χρηστών:
